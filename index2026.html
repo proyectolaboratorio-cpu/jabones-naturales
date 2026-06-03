@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio — 2026</title>
+    <meta name="description" content="Página ejemplo actualizada 2026">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Mi sitio</h1>
+            <nav class="main-nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero container">
+            <h2>Bienvenido</h2>
+            <p>Esta es una plantilla básica para empezar. Modifica el contenido y el archivo <code>style.css</code> según necesites.</p>
+            <a class="btn" href="#servicios">Ver servicios</a>
+        </section>
+
+        <section id="servicios" class="container">
+            <h3>Servicios</h3>
+            <ul>
+                <li>Diseño web</li>
+                <li>Desarrollo Frontend</li>
+                <li>Consultoría técnica</li>
+            </ul>
+        </section>
+
+        <section id="contacto" class="container">
+            <h3>Contacto</h3>
+            <p>Puedes escribirme a <a href="mailto:ejemplo@dominio.com">ejemplo@dominio.com</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <small>&copy; <span id="year"></span> Mi sitio. Todos los derechos reservados.</small>
+        </div>
+    </footer>
+
+    <script>
+        // Coloca aquí scripts pequeños; ejemplo: año automático
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
