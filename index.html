@@ -3,14 +3,377 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi sitio — 2026</title>
+    <title>Memoria Viva — Jabones que guardan el tiempo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
+<base target="_blank">
 </head>
 <body>
-    <header class="site-header">
-        <h1>Bienvenido a mi sitio en 2026</h1>
+
+    <!-- Navegación -->
+    <nav class="nav">
+        <div class="nav-logo">Memoria Viva</div>
+        <div class="nav-links">
+            <a href="#concepto">El Concepto</a>
+            <a href="#momentos">Momentos</a>
+            <a href="#proceso">Proceso</a>
+            <a href="#personalizar">Personalizar</a>
+        </div>
+        <a href="#personalizar" class="nav-cta">Crear mi memoria</a>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">Trujillo, Perú — 2026</p>
+            <h1 class="hero-title">
+                El primer jabón que no limpia tu piel.<br>
+                <em>Devuelve tu tiempo.</em>
+            </h1>
+            <p class="hero-subtitle">
+                Cada barra captura un momento exacto del día usando ingredientes recolectados 
+                en esa hora precisa. Lluvia de las 6:47am. Café de las 3:12pm. Brisa de las 7:23pm.
+            </p>
+            <div class="hero-cta-group">
+                <a href="#momentos" class="btn-primary">Descubrir momentos</a>
+                <a href="#concepto" class="btn-ghost">Entender la ciencia</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Desliza</span>
+            <div class="scroll-line"></div>
+        </div>
     </header>
+
+    <!-- Concepto -->
+    <section id="concepto" class="concepto">
+        <div class="container">
+            <div class="concepto-grid">
+                <div class="concepto-text">
+                    <span class="section-label">01 — La Ciencia</span>
+                    <h2 class="section-title">
+                        ¿Por qué el momento del día<br> cambia lo que sientes?
+                    </h2>
+                    <p class="section-body">
+                        Descubrimos que los aceites esenciales de plantas recolectadas a diferentes 
+                        horas del día tienen perfiles moleculares distintos. La lavanda cortada al 
+                        amanecer tiene 40% más linalool que la cortada al mediodía. El romero 
+                        recolectado al atardecer libera compuestos que tu piel interpreta como "calma".
+                    </p>
+                    <p class="section-body">
+                        <strong>Memoria Viva</strong> no es aromaterapia tradicional. Es 
+                        <em>cronoterapia molecular</em>: formulamos cada jabón con ingredientes 
+                        cosechados en una hora específica, para que al usarlo, tu cuerpo 
+                        experimente químicamente esa hora exacta.
+                    </p>
+                    <div class="concepto-stats">
+                        <div class="stat">
+                            <span class="stat-num">47</span>
+                            <span class="stat-label">Momentos del día<br>mapeados</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">12</span>
+                            <span class="stat-label">Ingredientes locales<br>de La Libertad</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">0</span>
+                            <span class="stat-label">Químicos<br>sintéticos</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="concepto-visual">
+                    <div class="molecule-ring">
+                        <div class="ring-center">
+                            <span class="ring-time">06:47</span>
+                            <span class="ring-label">AM</span>
+                        </div>
+                        <div class="orbit orbit-1">
+                            <div class="orbit-dot" style="--delay:0s"></div>
+                        </div>
+                        <div class="orbit orbit-2">
+                            <div class="orbit-dot" style="--delay:2s"></div>
+                        </div>
+                        <div class="orbit orbit-3">
+                            <div class="orbit-dot" style="--delay:4s"></div>
+                        </div>
+                    </div>
+                    <div class="concepto-cards">
+                        <div class="info-card">
+                            <span class="info-card-time">05:00 — 08:00</span>
+                            <h4>Fase Cortisol</h4>
+                            <p>Ingredientes energizantes, notas cítricas, alta evaporación.</p>
+                        </div>
+                        <div class="info-card">
+                            <span class="info-card-time">14:00 — 17:00</span>
+                            <h4>Fase Post-prandial</h4>
+                            <p>Notas dulces, reconfortantes, baja tensión superficial.</p>
+                        </div>
+                        <div class="info-card">
+                            <span class="info-card-time">19:00 — 22:00</span>
+                            <h4>Fase Melatonina</h4>
+                            <p>Notas terrosas, profundas, alta retención de humedad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Momentos / Productos -->
+    <section id="momentos" class="momentos">
+        <div class="container">
+            <span class="section-label center">02 — Las Colecciones</span>
+            <h2 class="section-title center">Tres momentos. Tres memorias.</h2>
+            <p class="section-subtitle center">
+                Cada colección está disponible solo durante la estación en que sus ingredientes 
+                alcanzan su pico molecular.
+            </p>
+
+            <div class="products-grid">
+                <!-- Producto 1 -->
+                <article class="product-card">
+                    <div class="product-image product-morning">
+                        <div class="product-badge">Edición Primavera</div>
+                        <div class="product-time">06:47 AM</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Lluvia de la Madrugada</h3>
+                        <p class="product-desc">
+                            Romero de Moche cortado antes del rocío. Limón de Laredo exprimido 
+                            a las 6:30am. Nota de eucalipto de Simbal. Espuma densa, despertar suave.
+                        </p>
+                        <div class="product-meta">
+                            <span class="meta-item">🌿 Romero + Limón</span>
+                            <span class="meta-item">⚡ Energizante</span>
+                            <span class="meta-item">📍 Valle de Moche</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 28.00</span>
+                            <button class="btn-small">Reservar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 2 -->
+                <article class="product-card featured">
+                    <div class="product-image product-afternoon">
+                        <div class="product-badge">Edición Verano</div>
+                        <div class="product-time">15:12 PM</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Café de las Tres</h3>
+                        <p class="product-desc">
+                            Cacao de Chazuta fermentado 72h. Café arábica de Lamas tostado a 
+                            las 3pm exactas. Canela de Moyobamba. Nota amarga que se vuelve dulce 
+                            en contacto con el agua.
+                        </p>
+                        <div class="product-meta">
+                            <span class="meta-item">☕ Cacao + Café</span>
+                            <span class="meta-item">🧠 Enfocado</span>
+                            <span class="meta-item">📍 San Martín</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 32.00</span>
+                            <button class="btn-small">Reservar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 3 -->
+                <article class="product-card">
+                    <div class="product-image product-evening">
+                        <div class="product-badge">Edición Otoño</div>
+                        <div class="product-time">19:23 PM</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Brisa del Atardecer</h3>
+                        <p class="product-desc">
+                            Lavanda de Huamachuco cosechada al ocaso. Naranja de Chepén exprimida 
+                            a las 7pm. Miel de abeja melipona de Zaña. Nota floral que se oscurece 
+                            con el agua caliente.
+                        </p>
+                        <div class="product-meta">
+                            <span class="meta-item">🌸 Lavanda + Miel</span>
+                            <span class="meta-item">🌙 Relajante</span>
+                            <span class="meta-item">📍 Huamachuco</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">S/ 30.00</span>
+                            <button class="btn-small">Reservar</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso -->
+    <section id="proceso" class="proceso">
+        <div class="container">
+            <span class="section-label center">03 — El Proceso</span>
+            <h2 class="section-title center">De la tierra a tu piel en 72 horas</h2>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-hour">Hora 0</span>
+                        <h4>Cosecha Cronometrada</h4>
+                        <p>Los agricultores locales cosechan el ingrediente exactamente a la hora 
+                        programada. Un GPS registra la coordenada y el timestamp.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-hour">Hora 4</span>
+                        <h4>Extracción Inmediata</h4>
+                        <p>En nuestro taller de Trujillo, los aceites esenciales se extraen por 
+                        destilación al vapor dentro de las 4 horas posteriores a la cosecha.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-hour">Hora 24</span>
+                        <h4>Saponificación Fría</h4>
+                        <p>Mezclamos con aceite de coco de Tumbes y aceite de oliva de Tacna. 
+                        La saponificación en frío preserva los compuestos volátiles.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-hour">Hora 72</span>
+                        <h4>Curado y Certificación</h4>
+                        <p>Cada barra recibe un código QR que te muestra la foto de la cosecha, 
+                        la hora exacta y el perfil molecular del lote.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personalizar -->
+    <section id="personalizar" class="personalizar">
+        <div class="container">
+            <div class="personalizar-grid">
+                <div class="personalizar-text">
+                    <span class="section-label">04 — Tu Memoria</span>
+                    <h2 class="section-title">
+                        ¿Y si tu jabón guardara<br>un momento <em>tuyo</em>?
+                    </h2>
+                    <p class="section-body">
+                        Cuéntanos un momento específico de tu vida: el primer beso a las 9:47pm, 
+                        la llamada que cambió todo a las 2:15pm, el amanecer en Huanchaco a las 5:30am.
+                    </p>
+                    <p class="section-body">
+                        Nuestros químicos formularán un jabón único cuyo perfil aromático 
+                        y molecular evoque químicamente esa hora y esa emoción. Solo se fabrican 
+                        10 unidades por memoria.
+                    </p>
+                    <div class="personalizar-form">
+                        <div class="form-group">
+                            <label>Tu momento</label>
+                            <input type="text" placeholder="Ej: Mi boda, 4:30pm, en la playa">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Hora exacta</label>
+                                <input type="time" value="16:30">
+                            </div>
+                            <div class="form-group">
+                                <label>Emoción principal</label>
+                                <select>
+                                    <option>Alegría</option>
+                                    <option>Calma</option>
+                                    <option>Nostalgia</option>
+                                    <option>Energía</option>
+                                    <option>Amor</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button class="btn-primary btn-large">Crear mi fórmula — S/ 45.00</button>
+                    </div>
+                </div>
+                <div class="personalizar-visual">
+                    <div class="memory-card">
+                        <div class="memory-header">
+                            <span class="memory-id">#MEM-2026-0047</span>
+                            <span class="memory-status">En formulación</span>
+                        </div>
+                        <div class="memory-body">
+                            <div class="memory-field">
+                                <span class="memory-label">Momento</span>
+                                <span class="memory-value">Primer surf en Huanchaco</span>
+                            </div>
+                            <div class="memory-field">
+                                <span class="memory-label">Hora</span>
+                                <span class="memory-value">05:42 AM</span>
+                            </div>
+                            <div class="memory-field">
+                                <span class="memory-label">Base molecular</span>
+                                <span class="memory-value">Sal marina + Eucalipto + Palo santo</span>
+                            </div>
+                            <div class="memory-field">
+                                <span class="memory-label">Nota emocional</span>
+                                <span class="memory-value">Libertad + Adrenalina suave</span>
+                            </div>
+                            <div class="memory-barcode">
+                                ||| ||| || |||| ||| || |||| ||| || |||| ||| || ||||
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Memoria Viva</h3>
+                    <p>Taller de cronoterapia molecular<br>Jr. Gamarra 412, Trujillo, Perú</p>
+                    <p class="footer-hours">Cosechas diarias: 5:00am — 8:00pm</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Explorar</h4>
+                    <a href="#concepto">La Ciencia</a>
+                    <a href="#momentos">Colecciones</a>
+                    <a href="#proceso">Proceso</a>
+                    <a href="#personalizar">Personalizar</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Comunidad</h4>
+                    <a href="#">Agricultores locales</a>
+                    <a href="#">Talleres de jabonería</a>
+                    <a href="#">Certificación molecular</a>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Recibe la hora exacta</h4>
+                    <p>Cada lunes te enviamos qué ingrediente está en su pico molecular esa semana.</p>
+                    <div class="newsletter-input">
+                        <input type="email" placeholder="tu@email.com">
+                        <button>Suscribir</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Memoria Viva. Cada segundo cuenta.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
